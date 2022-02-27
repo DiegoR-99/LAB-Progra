@@ -2,7 +2,9 @@ Imports System
 
 Module Program
     Sub Main()
-        Dim i, j, n As Double
+        Dim i As Double
+        Dim j As Double
+        Dim n As Double
         Dim Esperar As Char
         While Esperar <> "z" And Esperar <> "Z"
             Try
