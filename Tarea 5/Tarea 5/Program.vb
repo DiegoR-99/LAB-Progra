@@ -32,7 +32,7 @@ Module Program
                     Console.WriteLine()
                 End If
 
-                If (factorial > 1) Then
+                If (factorial >= 1) Then
                     Dim indice = 1
                     Dim cantidad As Integer = 0
                     Dim resultado As String = ""
