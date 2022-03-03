@@ -1,0 +1,18 @@
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\bin\Debug\net5.0-windows\Tarea 6 - Calculadora.exe
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\bin\Debug\net5.0-windows\Tarea 6 - Calculadora.deps.json
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\bin\Debug\net5.0-windows\Tarea 6 - Calculadora.runtimeconfig.json
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\bin\Debug\net5.0-windows\Tarea 6 - Calculadora.runtimeconfig.dev.json
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\bin\Debug\net5.0-windows\Tarea 6 - Calculadora.dll
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\bin\Debug\net5.0-windows\ref\Tarea 6 - Calculadora.dll
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\bin\Debug\net5.0-windows\Tarea 6 - Calculadora.pdb
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.vbproj.AssemblyReference.cache
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea_6___Calculadora.Form1.resources
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.vbproj.GenerateResource.cache
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.AssemblyInfo.vb
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.vbproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.dll
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\ref\Tarea 6 - Calculadora.dll
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.pdb
+C:\Users\Diego\Documents\GitHub\LAB-Progra\Tarea 6\Tarea 6 - Calculadora\Tarea 6 - Calculadora\obj\Debug\net5.0-windows\Tarea 6 - Calculadora.genruntimeconfig.cache
