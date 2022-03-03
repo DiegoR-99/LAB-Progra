@@ -66,4 +66,48 @@
         resultado = numeroA - numerob
         Return resultado
     End Function
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim txtA = Label2.Text
+        Dim numeroA = Int32.Parse(txtA)
+
+        Dim txtB = Label4.Text
+        Dim numeroB = Int32.Parse(txtB)
+
+        Dim resultadoMultiplicacion = Multiplicacion(numeroA, numeroB)
+        Label5.Text = "EL RESULTADO DE A * B ES " & resultadoMultiplicacion.ToString
+    End Sub
+    Function Multiplicacion(numeroA As Integer, numerob As Integer) As Integer
+        Dim resultado As Integer
+        resultado = numeroA * numerob
+        Return resultado
+    End Function
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Dim txtA = Label2.Text
+        Dim numeroA = Int32.Parse(txtA)
+
+        Dim txtB = Label4.Text
+        Dim numeroB = Int32.Parse(txtB)
+
+        Dim resultadoDivision = Division(numeroA, numeroB)
+        Label5.Text = "EL RESULTADO DE A / B ES " & resultadoDivision.ToString
+    End Sub
+    Function Division(numeroA As Integer, numerob As Integer) As Integer
+        Dim resultado As Integer
+        resultado = numeroA / numerob
+        Return resultado
+    End Function
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Clear.Label2.Text
+        Label4.Text = ""
+        Label5.Text = ""
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Me.Close()
+        If (True) Then
+        Else
+        End If
+    End Sub
 End Class
