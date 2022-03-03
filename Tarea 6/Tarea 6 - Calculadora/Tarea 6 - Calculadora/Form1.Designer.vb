@@ -32,17 +32,17 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Tw Cen MT", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(74, 38)
+        Me.Button1.Location = New System.Drawing.Point(113, 86)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(70, 51)
         Me.Button1.TabIndex = 0
@@ -52,7 +52,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Tw Cen MT", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button2.Location = New System.Drawing.Point(243, 38)
+        Me.Button2.Location = New System.Drawing.Point(282, 86)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(70, 51)
         Me.Button2.TabIndex = 5
@@ -62,7 +62,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Tw Cen MT", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button3.Location = New System.Drawing.Point(74, 139)
+        Me.Button3.Location = New System.Drawing.Point(113, 187)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(70, 51)
         Me.Button3.TabIndex = 6
@@ -72,7 +72,7 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Tw Cen MT", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.Location = New System.Drawing.Point(243, 139)
+        Me.Button4.Location = New System.Drawing.Point(282, 187)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(70, 51)
         Me.Button4.TabIndex = 7
@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Tw Cen MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(12, 45)
+        Me.Label1.Location = New System.Drawing.Point(51, 93)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(39, 37)
         Me.Label1.TabIndex = 9
@@ -93,7 +93,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tw Cen MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(168, 45)
+        Me.Label2.Location = New System.Drawing.Point(207, 93)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(34, 37)
         Me.Label2.TabIndex = 10
@@ -103,7 +103,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Tw Cen MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(12, 146)
+        Me.Label3.Location = New System.Drawing.Point(51, 194)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(34, 37)
         Me.Label3.TabIndex = 11
@@ -113,7 +113,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Tw Cen MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(168, 146)
+        Me.Label4.Location = New System.Drawing.Point(207, 194)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 37)
         Me.Label4.TabIndex = 12
@@ -123,7 +123,7 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Tw Cen MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(74, 290)
+        Me.Label5.Location = New System.Drawing.Point(176, 316)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(266, 37)
         Me.Label5.TabIndex = 13
@@ -131,26 +131,16 @@ Partial Class Form1
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(473, 45)
+        Me.Button5.Location = New System.Drawing.Point(512, 93)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(95, 26)
         Me.Button5.TabIndex = 14
         Me.Button5.Text = "SUMAR"
         Me.Button5.UseVisualStyleBackColor = True
         '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tw Cen MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New System.Drawing.Point(505, 290)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(41, 37)
-        Me.Label6.TabIndex = 15
-        Me.Label6.Text = "..."
-        '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(473, 86)
+        Me.Button6.Location = New System.Drawing.Point(512, 134)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(95, 26)
         Me.Button6.TabIndex = 16
@@ -159,7 +149,7 @@ Partial Class Form1
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(473, 127)
+        Me.Button7.Location = New System.Drawing.Point(512, 175)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(95, 26)
         Me.Button7.TabIndex = 17
@@ -168,7 +158,7 @@ Partial Class Form1
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(473, 168)
+        Me.Button8.Location = New System.Drawing.Point(512, 216)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(95, 26)
         Me.Button8.TabIndex = 18
@@ -177,23 +167,33 @@ Partial Class Form1
         '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(473, 209)
+        Me.Button9.Location = New System.Drawing.Point(512, 257)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(95, 26)
         Me.Button9.TabIndex = 19
         Me.Button9.Text = "LIMPIAR"
         Me.Button9.UseVisualStyleBackColor = True
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Tw Cen MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label7.Location = New System.Drawing.Point(328, 9)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(170, 37)
+        Me.Label7.TabIndex = 20
+        Me.Label7.Text = "201708957"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -221,9 +221,9 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Button5 As Button
-    Friend WithEvents Label6 As Label
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
+    Friend WithEvents Label7 As Label
 End Class

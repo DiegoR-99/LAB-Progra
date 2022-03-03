@@ -1,53 +1,69 @@
 ﻿Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim numeroEntrante As String = Label2.Text
-        numeroEntrante = Restar1(numeroEntrante)
+        numeroEntrante = Disminuir(numeroEntrante)
         Label2.Text = numeroEntrante
     End Sub
-    Function Restar1(texto As String) As String
+    Function Disminuir(texto As String) As String
         Dim numero As Integer = Int32.Parse(texto)
         Dim nuevoTexto As String
         numero = numero - 1
         nuevoTexto = numero.ToString()
         Return nuevoTexto
     End Function
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim numeroEntrante As String = Label2.Text
-        numeroEntrante = Sumar1(numeroEntrante)
+        numeroEntrante = Aumentar(numeroEntrante)
         Label2.Text = numeroEntrante
     End Sub
-    Function Sumar1(texto As String) As String
+    Function Aumentar(texto As String) As String
         Dim numero As Integer = Int32.Parse(texto)
         Dim nuevoTexto As String
         numero = numero + 1
         nuevoTexto = numero.ToString()
         Return nuevoTexto
     End Function
-
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim numeroEntrante As String = Label4.Text
-        numeroEntrante = Restar2(numeroEntrante)
+        numeroEntrante = Disminuir(numeroEntrante)
         Label4.Text = numeroEntrante
     End Sub
-    Function Restar2(texto As String) As String
-        Dim numero As Integer = Int32.Parse(texto)
-        Dim nuevoTexto As String
-        numero = numero - 1
-        nuevoTexto = numero.ToString()
-        Return nuevoTexto
-    End Function
-
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Dim numeroEntrante As String = Label4.Text
-        numeroEntrante = Sumar2(numeroEntrante)
+        numeroEntrante = Aumentar(numeroEntrante)
         Label4.Text = numeroEntrante
     End Sub
-    Function Sumar2(texto As String) As String
-        Dim numero As Integer = Int32.Parse(texto)
-        Dim nuevoTexto As String
-        numero = numero + 1
-        nuevoTexto = numero.ToString()
-        Return nuevoTexto
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim txtA = Label2.Text
+        Dim numeroA = Int32.Parse(txtA)
+
+        Dim txtB = Label4.Text
+        Dim numeroB = Int32.Parse(txtB)
+
+        Dim resultadoSuma = Suma(numeroA, numeroB)
+        'MsgBox(resultadoSuma)
+        Label5.Text = "EL RESULTADO DE A + B ES " & resultadoSuma.ToString
+    End Sub
+    Function Suma(numeroA As Integer, numerob As Integer) As Integer
+        Dim resultado As Integer
+        resultado = numeroA + numerob
+        Return resultado
+    End Function
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim txtA = Label2.Text
+        Dim numeroA = Int32.Parse(txtA)
+
+        Dim txtB = Label4.Text
+        Dim numeroB = Int32.Parse(txtB)
+
+        Dim resultadoResta = Resta(numeroA, numeroB)
+        Label5.Text = "EL RESULTADO DE A - B ES " & resultadoResta.ToString
+    End Sub
+    Function Resta(numeroA As Integer, numerob As Integer) As Integer
+        Dim resultado As Integer
+        resultado = numeroA - numerob
+        Return resultado
     End Function
 End Class
